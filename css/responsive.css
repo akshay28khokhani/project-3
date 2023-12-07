@@ -1,0 +1,241 @@
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .p-130{
+        padding: 70px 0px !important;
+    }
+    .img-le{
+        left: 0px;
+        margin-top: 45px;
+    }
+    .img-le img{
+        width: 100%;
+    }
+    .d{
+        display: none;
+    }
+    .m{
+        width: 31%;
+    }
+    .p-30{
+        padding: 20px 20px;
+    }
+    .m3{
+        margin-top: 30px;
+    }
+    .container{
+        padding: 0px 30px;
+    }
+    .bg-img-menu{
+        padding: 0px 8px !important;
+        margin: auto;
+    }
+    .img-menu {
+        width: 100px !important;
+        height: 120px !important;
+    }
+    .fs-24{
+        font-size: 20px;
+    }
+    .fs-42{
+        font-size: 32px;
+    }
+    .fs-18{
+        font-size: 16px;
+    }
+    .w170{
+        max-width: 170px;
+    }
+    .dotts-line{
+        padding-left: 100px !important;
+    }
+    .dotts-line::before{
+        width: 80px;
+    }
+    .just{
+        margin: 20px 0px;
+        justify-content: space-between;
+    }
+    .ps-5{
+        padding: 0px;
+    }
+    .ms0{
+        margin-left: 0 !important;
+        margin-top: 50px;
+    }
+    .h36{
+        height: 360px !important;
+    }
+    .sub-text{
+        font-size: 32px;
+    }
+    .mt5{
+        margin-top: 50px;
+    }
+    .img-round{
+        margin: -35px 118px 18px 118px !important;
+    }
+    .dn{
+        display: none;
+    }
+    .carousel-control-next{
+        width: 10% !important;
+    }
+    .carousel-control-prev{
+        width: 10% !important;
+    }
+    .f4{
+        font-size: 44px;
+    }
+    .play-i{
+        font-size: 22px !important;
+    }
+    .bg-img-about{
+        height: 280px;
+    }
+    .tc{
+        text-align: center;
+    }
+    .dj{
+        margin: 0px auto 20px auto;
+    }
+    .bg-img-about-2{
+        height: 320px;
+    }
+    .play{
+        width: 80px;
+        height: 80px;
+        left: 56%;
+        top: 56%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-list{
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+    .p-house{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .p-60{
+        padding: 0px 40px;
+    }
+    .bt{
+        padding:0px 20px;
+        font-size: 13px !important;
+    }
+    .h-780{
+        height: 529px !important;
+    }
+    .navbar-collapse{
+        background-color: var(--black-1);
+        padding: 40px 0px 0px 30px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        z-index: -1;
+    }
+
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .img-le{
+        left: 0px;
+    }
+    .img-text{
+        font-size: 16px;
+        margin-left: 23px;
+        letter-spacing: 0.7px;
+    }
+    .container{
+        padding: 0px 30px;
+    }
+    .p-130{
+        padding: 100px 0px ;
+    }
+    .img-le img{
+        width: 100%;
+    }
+    .m{
+        width: 15%;
+    }
+    .m7{
+        margin-bottom: 70px !important;
+    }
+    .bg-img-menu{
+        padding: 35px 35px !important;
+        margin: auto;
+    }
+    .img-round{
+        margin: -35px 104px 18px 104px !important;
+    }
+    .fa-solid{
+        font-size: 16px !important;
+    }
+    .carousel-control-next{
+        width: 5%;
+    }
+    .carousel-control-prev{
+        width: 5%;
+    }
+    .f8{
+        font-size: 40px !important;
+    }
+    .p-house{
+        font-size: 90px;
+        line-height: 95px;
+    }
+    .navbar-collapse{
+        background-color: var(--black-1);
+        padding: 40px 0px 0px 30px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        z-index: -1;
+    }
+    .ff{
+        font-size: 22px !important;
+    }
+   
+}
+@media (min-width: 320px) and (max-width:992px) {
+    .d{
+        display: none;
+    }
+    .mt3{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 992px){
+    .img-le{
+        left: 0px;
+    }
+    .container{
+        padding: 0px 30px;
+        margin: 0px auto;
+        max-width: 1170px;
+    }
+    .img-round{
+        margin: -35px 119px 18px 119px;
+    }
+    .navbar{
+        height: 90px;
+    }
+    .fa-solid{
+        font-size: 25px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .img-round{
+        margin: -35px 163px 18px 163px;
+    }
+    .navbar{
+        height: 90px;
+    }
+    .fa-solid{
+        font-size: 20px;
+    }
+}

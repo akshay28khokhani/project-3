@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg p-3 border-bottom" style="background-color: var(--black-1); border-color: rgba(255, 255, 255, 0.1) !important;">
+      <div class="container-fluid">
+        <a href="#" class="m">
+          <img src="img/logo.png" alt="" width="100%">
+        </a>
+        <button class="navbar-toggler" style="color: var(--color-white);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars ff" style="color: var(--color-white);"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active nev-menu-a a-hover" aria-current="page" href="/indax.html">home</a></li>
+            <li class="nav-item"><a class="nav-link active nev-menu-a a-hover" aria-current="page" href="/about.html">about</a></li>
+            <li class="nav-item"><a class="nav-link active nev-menu-a a-hover" aria-current="page" href="/menu.html">menu</a></li>
+          
+            <li class="nav-item mega-menu position-relative"><a class="nav-link active nev-menu-a a-hover" aria-current="page" href="/service.html">page <i class="fa-solid fa-angle-down"></i></a>
+              <ul class="menu-1">
+                <li><a class="menu-item fs-14 a-hover text-uppercase" href="/service.html">service</a></li>
+                <li><a class="menu-item fs-14 a-hover text-uppercase" href="/reservation.html">reservation</a></li>
+                
+               
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active nev-menu-a a-hover" aria-current="page" href="/blogg.html">blog</a></li>
+
+            </li>
+            <li class="nav-item"><a class="nav-link active nev-menu-a a-hover" aria-current="page" href="/contect.html">contacts</a></li>
+          </ul>
+        </div>
+        <button type="button" class="but-k d-md-none d d-xl-block d-lg-block">book a table</button>
+      </div>
+    </nav>
+    
+    <div class="container-fluid px-0 position-relative">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active p-60 bg-img-12 bac-img-1 h-780">
+              <div class="d-flex align-items-center flex-wrap h-780">
+                <div>
+                  <div class="line-1">
+                    Welcome to the Kaffen
+                  </div>
+                  <div class="p-house">
+                    the paris <br> coffee house
+                  </div>
+                  <div class="mt-5">
+                    <button type="button" class="but-k bt">explore more<i class="fa-solid fa-chevron-right ms-2 f-13"></i></button>
+                    <button type="button" class="but-k ms-2 bt black">get delivery<i class="fa-solid fa-chevron-right f-13 ms-2"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item p-60 bg-img-12 bac-img-2 h-780">
+              <div class="d-flex align-items-center flex-wrap h-780">
+                <div>
+                  <div class="line-1">
+                    Welcome to the Kaffen
+                  </div>
+                  <div class="p-house">
+                    great coffee <br> good vibes
+                  </div>
+                  <div class="mt-5">
+                    <button type="button" class="but-k bt">explore more<i class="fa-solid fa-chevron-right ms-2 f-13"></i></button>
+                    <button type="button" class="but-k ms-2 bt black">get delivery<i class="fa-solid fa-chevron-right f-13 ms-2"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item p-60 bg-img-12 bac-img-3 h-780">
+              <div class="d-flex align-items-center flex-wrap h-780">
+                <div>
+                  <div class="line-1">
+                    Welcome to the Kaffen
+                  </div>
+                  <div class="p-house">
+                    the london <br> coffee house
+                  </div>
+                  <div class="mt-5">
+                    <button type="button" class="but-k bt">explore more<i class="fa-solid fa-chevron-right ms-2 f-13"></i></button>
+                    <button type="button" class="but-k ms-2 bt black">get delivery<i class="fa-solid fa-chevron-right f-13 ms-2"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev b-p" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next b-n" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+
+    <div class="container-fluid p-130 pb-0 overflow-hidden" style="background-color: var(--black-2);">
+      <div class="container">
+          <div class="row align-items-center ">
+              <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">  
+                  <div class="text-edits mb-2 fs-16">about us</div>
+                  <h3 class="sub-text text-capitalize">organic & fresh coffee <br> provider center</h3>
+                  <p class="dif-text fs-16 mb-4">
+                      Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae abillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione
+                  </p>
+                  <div class="d-flex" style="background-color: var(--dust); padding: 20px; border-radius: 5px; margin-top: 35px;">
+                      <div class="img-circle">
+                          <img src="img/quote_img.png" alt="">
+                      </div>
+                      <div class="img-text">
+                          Quis autem vel eum iure reprehenderit in ealuptate velit esse molestiae
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 mt-lg-5 mt-md-5 img-le">
+                  <img src="img/about_img.png" alt="">
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-130" style="background-color: var(--black-2);">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 m3">
+              <div class='bac-images' style="height: 270px" role="button">
+                  <div class='overflow-hidden' style="height: 270px">
+                    <img src='img/service1.jpg' width="100%" height="100%"></img>
+                  </div>
+                  <div class='text-white text-center d-flex justify-content-center align-items-center img-box'>
+                    <div>
+                      <h5 class="fs-24" style="font-weight: 500; font-family: var(--ff-Oswald);">Restaurant Menu</h5>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 m3">
+              <div class='bac-images' style="height: 270px" role="button">
+                  <div class='overflow-hidden' style="height: 270px">
+                    <img src='img/service2.jpg' width="100%" height="100%"></img>
+                  </div>
+                  <div class='text-white text-center d-flex justify-content-center align-items-center img-box'>
+                    <div>
+                      <h5 class="fs-24" style="font-weight: 500; font-family: var(--ff-Oswald);">Restaurant Menu</h5>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-4 col-sm-12 d-lg-none d-xl-block d-md-none m3">
+              <div class='bac-images' style="height: 270px" role="button">
+                  <div class='overflow-hidden' style="height: 270px">
+                    <img src='img/cta_bg.jpg' width="100%" height="100%"></img>
+                  </div>
+                  <div class='text-white text-center d-flex justify-content-center align-items-center img-box'>
+                    <div>
+                      <h5 class="fs-24" style="font-weight: 500; font-family: var(--ff-Oswald);">Restaurant Menu</h5>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid p-130 bg-img-category">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-12">
+                <div class="m7" style="margin-bottom: 30px;">
+                  <div class="text-edits mb-2 fs-16 text-center">CHOOSE BEST COFFEE</div>
+                  <h3 class="sub-text text-capitalize text-center">Kaffen Popular Coffee Menu</h3>
+                </div>
+              </div>
+              <div class="col-xl-12 p-0">
+                  <div class="row bg-img-menu" style="padding: 35px 45px; background-color: var(--black-2);">
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                          <div class='d-flex align-items-center just' style="margin: 30px 0px">
+                              <div class='img-menu overflow-hidden'>
+                                <a href=''>
+                                  <img src='img/menu1.jpg' width="100%" height="100%"></img>
+                                </a>
+                              </div>
+                              <div class='ps-xl-5 w170'>
+                                <h5 class='fs-24 text-white mb-10' style="font-family: var(--ff-Oswald);">Americano Coffee</h5>
+                                <div class='mb-10 fs-16' style="color: var(--light-white);">2/3 espresso, 1/3 streamed milk</div>
+                                <div class='dotts-line position-relative fs-24' style="padding-left: 150px ; letter-spacing: 1px; color: var(--dust); font-family: var(--ff-Merienda);">$4.5</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                          <div class='d-flex align-items-center just' style="margin: 30px 0px">
+                              <div class='img-menu overflow-hidden'>
+                                <a href=''>
+                                  <img src='img/menu2.jpg' width="100%" height="100%"></img>
+                                </a>
+                              </div>
+                              <div class='ps-xl-5 w170'>
+                                <h5 class='fs-24 text-white mb-10' style="font-family: var(--ff-Oswald);">Espresso Coffee</h5>
+                                <div class='mb-10 fs-16' style="color: var(--light-white);">2/3 espresso, 1/3 streamed milk</div>
+                                <div class='dotts-line position-relative fs-24' style="padding-left: 150px ; letter-spacing: 1px; color: var(--dust); font-family: var(--ff-Merienda);">$4.9</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                          <div class='d-flex align-items-center just' style="margin: 30px 0px">
+                              <div class='img-menu overflow-hidden'>
+                                <a href=''>
+                                  <img src='img/menu3.jpg' width="100%" height="100%"></img>
+                                </a>
+                              </div>
+                              <div class='ps-xl-5 w170'>
+                                <h5 class='fs-24 text-white mb-10' style="font-family: var(--ff-Oswald);">Barista Pouring Syrup</h5>
+                                <div class='mb-10 fs-16' style="color: var(--light-white);">2/3 espresso, 1/3 streamed milk</div>
+                                <div class='dotts-line position-relative fs-24' style="padding-left: 150px ; letter-spacing: 1px; color: var(--dust); font-family: var(--ff-Merienda);">$3.5</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                          <div class='d-flex align-items-center just' style="margin: 30px 0px">
+                              <div class='img-menu overflow-hidden'>
+                                <a href=''>
+                                  <img src='img/menu4.jpg' width="100%" height="100%"></img>
+                                </a>
+                              </div>
+                              <div class='ps-xl-5 w170'>
+                                <h5 class='fs-24 text-white mb-10' style="font-family: var(--ff-Oswald);">Cold - Coffee</h5>
+                                <div class='mb-10 fs-16' style="color: var(--light-white);">2/3 espresso, 1/3 streamed milk</div>
+                                <div class='dotts-line position-relative fs-24' style="padding-left: 150px ; letter-spacing: 1px; color: var(--dust); font-family: var(--ff-Merienda);">$6.0</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                          <div class='d-flex align-items-center just' style="margin: 30px 0px">
+                              <div class='img-menu overflow-hidden'>
+                                <a href=''>
+                                  <img src='img/menu5.jpg' width="100%" height="100%"></img>
+                                </a>
+                              </div>
+                              <div class='ps-xl-5 w170'>
+                                <h5 class='fs-24 text-white mb-10' style="font-family: var(--ff-Oswald);">Cappuccino Arabica</h5>
+                                <div class='mb-10 fs-16' style="color: var(--light-white);">2/3 espresso, 1/3 streamed milk</div>
+                                <div class='dotts-line position-relative fs-24' style="padding-left: 150px ; letter-spacing: 1px; color: var(--dust); font-family: var(--ff-Merienda);">$2.8</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                          <div class='d-flex align-items-center just' style="margin: 30px 0px">
+                              <div class='img-menu overflow-hidden'>
+                                <a href=''>
+                                  <img src='img/menu6.jpg' width="100%" height="100%"></img>
+                                </a>
+                              </div>
+                              <div class='ps-xl-5 w170'>
+                                <h5 class='fs-24 text-white mb-10' style="font-family: var(--ff-Oswald);">Milk Cream Coffee</h5>
+                                <div class='mb-10 fs-16' style="color: var(--light-white);">2/3 espresso, 1/3 streamed milk</div>
+                                <div class='dotts-line position-relative fs-24' style="padding-left: 150px ; letter-spacing: 1px; color: var(--dust); font-family: var(--ff-Merienda);">$7.5</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-130 overflow-hidden" style="background-color: var(--black-2);">
+      <div class="container position-relative">
+        <div class="row align-items-center">
+          <div class="col-xl-6 col-lg-12 mb-md-5">
+            <div class='overflow-hidden h36' style="height: 700px">
+              <img src='img/choose_img.jpg' width="100%" height="100%" style="object-fit: cover; object-position: center">
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-12 ms0 ms-lg-0 ms-md-0 pt-lg-5">
+            <div style="margin-bottom: 30px;">
+              <div class="text-edits mb-2 fs-16">WHY CHOOSE US</div>
+              <h3 class="sub-text text-capitalize" style="letter-spacing: -1.1px;">New London Coffee Founded For Extraordinary Test</h3>
+            </div>
+            <p class="dif-text fs-16 mb-4" style="letter-spacing: 0.1px">
+              Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae abillo inventore veritatis 
+            </p>
+            <ul class='p-0 m-0' style="margin: 40px 0px">
+              <li class='mb-30 d-flex'>
+                <div>
+                  <img src='https://kaffen-reactjs.netlify.app/images/choose_icon1.png' width="69px"></img>
+                </div>
+                <div style="margin-left: 30px">
+                  <h5 class='fs-24 mb-10' style="font-family: var(--ff-Oswald); color: var(--color-white);">Natural Coffee Beans</h5>
+                  <p class="dif-text fs-16 mb-4" style="letter-spacing: 0.1px">
+                    Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque 
+                  </p>
+                </div>
+              </li>
+              <li class='d-flex'>
+                <div>
+                  <img src='https://kaffen-reactjs.netlify.app/images/choose_icon2.png' width="69px"></img>
+                </div>
+                <div style="margin-left: 30px">
+                  <h5 class="fs-24 mb-10" style="font-family: var(--ff-Oswald); color: var(--color-white);">100% ISO Certification</h5>
+                  <p class="dif-text fs-16 mb-4" style="letter-spacing: 0.1px">
+                    Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque 
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <button type="button" class="but-k mt-2">book a table</button>
+          </div>
+        </div>
+        <div class="p-icon-ab">
+          <div class="p-icon"></div>
+        </div>
+        <div class="p-icon-ab2">
+          <div class="p-icon-coffee"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid p-130" style="background-color: var(--black-1);">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-md-6 dis">
+            <div class='bac-images  h36' style="height: 480px" role="button">
+              <div class='overflow-hidden h36' style="height: 480px">
+                <img src='img/grid_gal2.jpg' width="100%" height="100%"></img>
+              </div>
+              <div class='text-white text-center d-flex justify-content-center align-items-center img-box'>
+                <div>
+                  <h5 class="fs-24" style="font-weight: 500; font-family: var(--ff-Oswald);">Restaurant Menu</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 d-lg-none d-md-none d-xl-block d-sm-block dis">
+            <div class='bac-images mt-5  h36' style="height: 480px" role="button">
+              <div class='overflow-hidden h36' style="height: 480px">
+                <img src='img/grid_gal3.jpg' width="100%" height="100%"></img>
+              </div>
+              <div class='text-white text-center d-flex justify-content-center align-items-center img-box'>
+                <div>
+                  <h5 class="fs-24" style="font-weight: 500; font-family: var(--ff-Oswald);">Restaurant Menu</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 dis">
+            <div class='bac-images mt5  h36' style="height: 480px" role="button">
+              <div class='overflow-hidden  h36' style="height: 480px">
+                <img src='img/service2.jpg' width="100%" height="100%"></img>
+              </div>
+              <div class='text-white text-center d-flex justify-content-center align-items-center img-box'>
+                <div>
+                  <h5 class="fs-24" style="font-weight: 500; font-family: var(--ff-Oswald);">Restaurant Menu</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-130 bac-img-customer" style="background-color: var(--black-2);">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div style="margin-bottom: 40px;">
+              <div class="text-edits mb-2 fs-16 text-center">CHOOSE BEST COFFEE</div>
+              <h3 class="sub-text text-capitalize text-center">Kaffen Popular Coffee Menu</h3>
+            </div>
+          </div>
+          <div class="col-12 overflow-hidden">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="row mt-5">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                      <div class='position-relative' style="padding: 0px 30px 30px; background-color: var(--black-1); min-height: 340px;">
+                        <div class='img-round rounded-circle overflow-hidden'>
+                          <img src='img/rev2.jpg' width="100%"></img>
+                        </div>
+                        <div class='mb-3'>
+                          <ul class='m-0 p-0 d-flex justify-content-center' style="color: var(--dust);">
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <p class='text-center fs-16 mb-3' style="color: var(--light-white); line-height: 25px; letter-spacing: 0.1px;">Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+                        <h5 class='text-white text-center fs-18' style="font-weight: 600;">James M. London<br /><em class='fs-15 fst-normal mt-2 d-inline-block' style="color: var(--dust);">Lawyer</em></h5>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 dn">
+                      <div class='position-relative' style="padding: 0px 30px 30px; background-color: var(--black-1); min-height: 340px;">
+                        <div class='img-round rounded-circle overflow-hidden'>
+                          <img src='img/rev1.jpg' width="100%"></img>
+                        </div>
+                        <div class='mb-3'>
+                          <ul class='m-0 p-0 d-flex justify-content-center' style="color: var(--dust);">
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <p class='text-center fs-16 mb-3' style="color: var(--light-white); line-height: 25px; letter-spacing: 0.1px;">Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+                        <h5 class='text-white text-center fs-18' style="font-weight: 600;">James M. London<br /><em class='fs-15 fst-normal mt-2 d-inline-block' style="color: var(--dust);">Lawyer</em></h5>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 d-lg-none dn d-md-none d-xl-block">
+                      <div class='position-relative' style="padding: 0px 30px 30px; background-color: var(--black-1); min-height: 340px;">
+                        <div class='img-round rounded-circle overflow-hidden'>
+                          <img src='img/rev3.jpg' width="100%"></img>
+                        </div>
+                        <div class='mb-3'>
+                          <ul class='m-0 p-0 d-flex justify-content-center' style="color: var(--dust);">
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <p class='text-center fs-16 mb-3' style="color: var(--light-white); line-height: 25px; letter-spacing: 0.1px;">Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+                        <h5 class='text-white text-center fs-18' style="font-weight: 600;">James M. London<br /><em class='fs-15 fst-normal mt-2 d-inline-block' style="color: var(--dust);">Lawyer</em></h5>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 d-lg-none dn d-md-none d-xl-block">
+                      <div class='position-relative' style="padding: 0px 30px 30px; background-color: var(--black-1); min-height: 340px;">
+                        <div class='img-round rounded-circle overflow-hidden'>
+                          <img src='img/rev2.jpg' width="100%"></img>
+                        </div>
+                        <div class='mb-3'>
+                          <ul class='m-0 p-0 d-flex justify-content-center' style="color: var(--dust);">
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <p class='text-center fs-16 mb-3' style="color: var(--light-white); line-height: 25px; letter-spacing: 0.1px;">Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+                        <h5 class='text-white text-center fs-18' style="font-weight: 600;">James M. London<br /><em class='fs-15 fst-normal mt-2 d-inline-block' style="color: var(--dust);">Lawyer</em></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="row mt-5">
+                    <div class="col-xl-3 col-lg-6 d-lg-none dn d-md-none d-xl-block">
+                      <div class='position-relative' style="padding: 0px 30px 30px; background-color: var(--black-1); min-height: 340px;">
+                        <div class='img-round rounded-circle overflow-hidden'>
+                          <img src='img/rev2.jpg' width="100%"></img>
+                        </div>
+                        <div class='mb-3'>
+                          <ul class='m-0 p-0 d-flex justify-content-center' style="color: var(--dust);">
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <p class='text-center fs-16 mb-3' style="color: var(--light-white); line-height: 25px; letter-spacing: 0.1px;">Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+                        <h5 class='text-white text-center fs-18' style="font-weight: 600;">James M. London<br /><em class='fs-15 fst-normal mt-2 d-inline-block' style="color: var(--dust);">Lawyer</em></h5>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 d-lg-none dn d-md-none d-xl-block">
+                      <div class='position-relative' style="padding: 0px 30px 30px; background-color: var(--black-1); min-height: 340px;">
+                        <div class='img-round rounded-circle overflow-hidden'>
+                          <img src='img/rev1.jpg' width="100%"></img>
+                        </div>
+                        <div class='mb-3'>
+                          <ul class='m-0 p-0 d-flex justify-content-center' style="color: var(--dust);">
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <p class='text-center fs-16 mb-3' style="color: var(--light-white); line-height: 25px; letter-spacing: 0.1px;">Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+                        <h5 class='text-white text-center fs-18' style="font-weight: 600;">James M. London<br /><em class='fs-15 fst-normal mt-2 d-inline-block' style="color: var(--dust);">Lawyer</em></h5>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 ">
+                      <div class='position-relative' style="padding: 0px 30px 30px; background-color: var(--black-1); min-height: 340px;">
+                        <div class='img-round rounded-circle overflow-hidden'>
+                          <img src='img/rev3.jpg' width="100%"></img>
+                        </div>
+                        <div class='mb-3'>
+                          <ul class='m-0 p-0 d-flex justify-content-center' style="color: var(--dust);">
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <p class='text-center fs-16 mb-3' style="color: var(--light-white); line-height: 25px; letter-spacing: 0.1px;">Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+                        <h5 class='text-white text-center fs-18' style="font-weight: 600;">James M. London<br /><em class='fs-15 fst-normal mt-2 d-inline-block' style="color: var(--dust);">Lawyer</em></h5>
+                      </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 dn">
+                      <div class='position-relative' style="padding: 0px 30px 30px; background-color: var(--black-1); min-height: 340px;">
+                        <div class='img-round rounded-circle overflow-hidden'>
+                          <img src='img/rev2.jpg' width="100%"></img>
+                        </div>
+                        <div class='mb-3'>
+                          <ul class='m-0 p-0 d-flex justify-content-center' style="color: var(--dust);">
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                            <li class="fs-18"><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <p class='text-center fs-16 mb-3' style="color: var(--light-white); line-height: 25px; letter-spacing: 0.1px;">Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+                        <h5 class='text-white text-center fs-18' style="font-weight: 600;">James M. London<br /><em class='fs-15 fst-normal mt-2 d-inline-block' style="color: var(--dust);">Lawyer</em></h5>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center mt-5">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-70" style="background-color: var(--black-1);">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class='d-flex  align-items-center' style=" font-family: var(--ff-Oswald);">
+              <div class='fs-60' style="color: var(--dust);">256+</div>
+              <div style="margin-left: 20px">
+                <h5 class='text-white fs-24'>Premium Clients</h5>
+                <span style="color: var(--light-white); font-family: var(--ff-sans);">Sed ut perspiciatis unde</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 mt5">
+            <div class='d-flex  align-items-center' style=" font-family: var(--ff-Oswald);">
+              <div class='fs-60' style="color: var(--dust);">362+</div>
+              <div style="margin-left: 20px">
+                <h5 class='text-white fs-24'>Expert Members</h5>
+                <span style="color: var(--light-white); font-family: var(--ff-sans);">Sed ut perspiciatis unde</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 mt5 d-lg-none d-md-none d-xl-block">
+            <div class='d-flex  align-items-center' style=" font-family: var(--ff-Oswald);">
+              <div class='fs-60' style="color: var(--dust)">753+</div>
+              <div style="margin-left: 20px">
+                <h5 class='text-white fs-24'>Winning Awards</h5>
+                <span style="color: var(--light-white); font-family: var(--ff-sans);">Sed ut perspiciatis unde</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-130" style="background-color: var(--black-2);">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div style="margin-bottom: 50px;">
+              <div class="text-edits mb-2 fs-16 text-center">GET EVERY SINGLE UPDATE</div>
+              <h3 class="sub-text text-capitalize text-center">Read Some Latest Blog & News</h3>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-xl-4 col-lg-6 col-sm-12 col-md-6">
+                <div class='position-relative mt5' role='button'>
+                  <div class='blog position-relative overflow-hidden' style="height: 415px">
+                    <a href=''>
+                      <img src='img/latest_blog1.jpg' width="100%" height="100%"></img>
+                    </a>
+                  </div>
+                  <div class='kf-info' style="padding: 30px;">
+                    <h5 class='fs-22 text-white' style="font-family: var(--ff-Oswald);">SWR React Hooks With Next Increm Ental Static Regeneration</h5>
+                    <span class='fs-16' style="margin-right: 20px; color: var(--light-white);"> 25 Sep 2021</span>
+                    <span class='fs-16' style="margin-right: 20px; color: var(--light-white);"> Comments(7)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-sm-12 col-md-6">
+                <div class='position-relative mt5' role='button'>
+                  <div class='blog position-relative overflow-hidden' style="height: 415px">
+                    <a href=''>
+                      <img src='img/latest_blog2.jpg' width="100%" height="100%"></img>
+                    </a>
+                  </div>
+                  <div class='kf-info' style="padding: 30px;">
+                    <h5 class='fs-22 text-white' style="font-family: var(--ff-Oswald);">Decisions For Building Flexible Components DevTools Browser</h5>
+                    <span class='fs-16' style="margin-right: 20px; color: var(--light-white);"> 25 Sep 2021</span>
+                    <span class='fs-16' style="margin-right: 20px; color: var(--light-white);"> Comments(7)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-sm-12 d-xl-block d-md-none d-lg-none">
+                <div class='position-relative mt5' role='button'>
+                  <div class='blog position-relative overflow-hidden' style="height: 415px">
+                    <a href=''>
+                      <img src='img/latest_blog3.jpg' width="100%" height="100%"></img>
+                    </a>
+                  </div>
+                  <div class='kf-info' style="padding: 30px;">
+                    <h5 class='fs-22 text-white' style="font-family: var(--ff-Oswald);">SWR React Hooks With Next Increm Ental Static Regeneration</h5>
+                    <span class='fs-16' style="margin-right: 20px; color: var(--light-white);"> 25 Sep 2021</span>
+                    <span class='fs-16' style="margin-right: 20px; color: var(--light-white);"> Comments(7)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="d-flex justify-content-center" style="margin-top: 50px;">
+              <button type="button" class="but-k">view all</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-70 bac-img-need">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-8 col-lg-12">
+            <div class='fs-16 mb-2' style="color: var(--dust);">NEED A TABLE ON COFFEE HOUSE</div>
+            <div class='text-white fs-42' style="font-family: var(--ff-Oswald); line-height: 1.2; letter-spacing: -0.4px;">Booking Table For Your & Family Members</div>
+          </div>
+          <div class="col-xl-4 col-lg-12">
+            <div class='d-flex justify-content-xl-end mt3'>
+              <button type="button" class="but-k">booking table</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-70 pb-0" style="background-color: var(--black-2);">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-xl-3 col-lg-6 col-md-6">
+                <div style="width: 118px">
+                  <a href=''>
+                    <img src="img/logo.png" width="100%"></img>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6 col-md-6 mt5">
+                <div class='text-white fs-16'>
+                  <h5 class='fs-24 mb-3' style="font-family: var(--ff-Oswald);">Working Hours</h5>
+                  <ul class='m-0 p-0 mt-1'>
+                    <li class='edit-li'>Sunday - Thursday <br /><em style="color: var(--light-white);">08:00 am - 09:00pm</em></li>
+                    <li class='edit-li'>Only Friday <br /><em style="color: var(--light-white);">03:00 am - 09:00pm</em></li>
+                    <li><strong class='text-capitalize fs-22' style="font-family: var(--ff-Merienda); color: var(--orenge);">saturday close</strong></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6 col-md-6 mt-md-5 mt-xl-0 mt5">
+                <div class='text-white fs-16'>
+                  <h5 class='fs-24 mb-3' style="font-family: var(--ff-Oswald);">Contact US</h5>
+                  <ul class='m-0 p-0 mt-1'>
+                    <li class='ft-li text-capitalize'><em class='fw-600' style="color: var(--dust);">location :</em><br />55 main street new york</li>
+                    <li class='ft-li text-capitalize'><em class='fw-600' style="color: var(--dust);">Email Address :</em><br />kaffendev@gmail.com</li>
+                    <li class='ft-li text-capitalize'><em class='fw-600' style="color: var(--dust);">Phone Number :</em><br />+012 (345) 678 99</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-6 col-md-6 mt-md-5 mt-xl-0 mt5">
+                <div class='text-white fs-16'>
+                  <h5 class='fs-24 mb-3' style="font-family: var(--ff-Oswald);">Gallery</h5>
+                  <ul class='p-0 m-0 d-flex flex-wrap'>
+                    <li class='p-1 ft-li-img' style="width: 33.33% ; height: 80px">
+                      <a href='' class='overflow-hidden'>
+                        <img src='img/grid_gal1.jpg' width="100%" height="100%"></img>
+                      </a>
+                    </li>
+                    <li class='p-1 ft-li-img' style="width: 33.33% ; height: 80px">
+                      <a href='' class='overflow-hidden'>
+                        <img src='img/grid_gal2.jpg' width="100%" height="100%"></img>
+                      </a>
+                    </li>
+                    <li class='p-1 ft-li-img' style="width: 33.33% ; height: 80px">
+                      <a href='' class='overflow-hidden'>
+                        <img src='img/grid_gal3.jpg' width="100%" height="100%"></img>
+                      </a>
+                    </li>
+                    <li class='p-1 ft-li-img' style="width: 33.33% ; height: 80px">
+                      <a href='' class='overflow-hidden'>
+                        <img src='img/service2.jpg' width="100%" height="100%"></img>
+                      </a>
+                    </li>
+                    <li class='p-1 ft-li-img' style="width: 33.33% ; height: 80px">
+                      <a href='' class='overflow-hidden'>
+                        <img src='img/grid_gal5.jpg' width="100%" height="100%"></img>
+                      </a>
+                    </li>
+                    <li class='p-1 ft-li-img' style="width: 33.33% ; height: 80px">
+                      <a href='' class='overflow-hidden'>
+                        <img src='img/grid_gal1.jpg' width="100%" height="100%"></img>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class='text-center pad-30' style="margin-top: 70px;color: var(--light-white); border-top: 1px solid rgba(255, 255, 255, 0.1)">Copyright © 2022 <em className='hov-color' role='button'>Kaffen</em>. All Rights Reserved.</div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
